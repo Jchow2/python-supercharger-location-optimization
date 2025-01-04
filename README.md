@@ -25,8 +25,8 @@ With the rise in electric vehicle (EV) adoption, the need for an efficient charg
 The objective function used in this project aims to minimize the total distance traveled by all EV users to the nearest supercharger station. The function is formulated as follows: $$\text{Minimize} \sum_{i=1}^{n} \sum_{j=1}^{m} d_{ij} x_{ij}$$
 
 Where: 
-- _\( d_{ij} \)_ is the distance between EV user _\( i \)_ and supercharger station _\( j \)_
-- _\( x_{ij} \)_ is a binary variable indicating whether EV user _\( i \)_ is assigned to supercharger station _\( j \)_
+- _\( d_{ij} \) is the distance between EV user _\( i \)_ and supercharger station _\( j \)_
+- _\( x_{ij} \) is a binary variable indicating whether EV user _\( i \)_ is assigned to supercharger station _\( j \)_
 
 ## Methodology 
 
