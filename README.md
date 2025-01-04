@@ -119,7 +119,7 @@ We welcome contributions to this project! Please follow the guidelines below to 
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License Version 2.0.
 
 # 👩‍💻 Author
 Developed and maintained by Justin Chow.
