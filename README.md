@@ -6,15 +6,16 @@ The Supercharger Location Optimization project aims to optimize the placement of
 
 ## 📝 Table of Contents
 
-- [Project Description](#project-description)
-- [Requirements](#requirements)
-- [Installation](#installation)
+- [Introduction](#introduction)
+- [📖 Project Description](#project-description)
+- [🌟 Requirements](#requirements)
+- [⚙️ Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [📜 License](#license)
+- [👩‍💻 Acknowledgements](#acknowledgements)
 
 # 📖 Project Description
 
@@ -121,7 +122,7 @@ We welcome contributions to this project! Please follow the guidelines below to 
 
 This project is licensed under the Apache License Version 2.0.
 
-# 👩‍💻 Author
+# 👩‍💻 Acknowledgements
 Developed and maintained by Justin Chow.
 Referenced articles to assist with developing the optimization model.
 
