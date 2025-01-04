@@ -25,8 +25,8 @@ With the rise in electric vehicle (EV) adoption, the need for an efficient charg
 The objective function used in this project aims to minimize the total distance traveled by all EV users to the nearest supercharger station. The function is formulated as follows: $$\text{Minimize} \sum_{i=1}^{n} \sum_{j=1}^{m} d_{ij} x_{ij}$$
 
 Where: 
-- \( d_{ij} \) is the distance between EV user \( i \) and supercharger station \( j \)
-- \( x_{ij} \) is a binary variable indicating whether EV user \( i \) is assigned to supercharger station \( j \)
+- _\( d_{ij} \)_ is the distance between EV user _\( i \)_ and supercharger station _\( j \)_
+- _\( x_{ij} \)_ is a binary variable indicating whether EV user _\( i \)_ is assigned to supercharger station _\( j \)_
 
 ## Methodology 
 
@@ -102,6 +102,8 @@ This will begin the optimization process for supercharger locations based on the
 ```
 
 # Results
+![Supercharger Location Optimization](https://github.com/Jchow2/python-supercharger-location-optimization/blob/main/Tesla%20Supercharger%20Location%20Optimization%20-%20California.png)
+
 - The interactive map reveals clusters of supercharger stations in major metropolitan areas such as Los Angeles, San Francisco, and San Diego.
 - The color-coded lines indicate that most supercharger stations are within a short to medium distance from their nearest neighbor, ensuring good coverage for electric vehicle drivers.
 - The longest distances (red lines) highlight areas where additional supercharger stations could be beneficial to reduce travel distances for EV drivers.
