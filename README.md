@@ -1,8 +1,8 @@
-# Tesla Supercharger Location Optimization
-
-# Introduction
+# ⚡ Tesla Supercharger Location Optimization
 
 The Supercharger Location Optimization project aims to optimize the placement of supercharger stations for electric vehicles. This project uses advanced data science techniques to determine the most efficient locations for these stations to maximize coverage and minimize costs. The project is based on the paper "Tesla’s Supercharger Cost Revealed to Be Just One-Fifth of the Competition in Losing Home State Bid" by Fred Lambert.
+
+---
 
 ## 📝 Table of Contents
 
@@ -16,6 +16,8 @@ The Supercharger Location Optimization project aims to optimize the placement of
 - [Contributing](#contributing)
 - [📜 License](#license)
 - [👩‍💻 Acknowledgements](#acknowledgements)
+
+---
 
 # 📖 Project Description
 
@@ -38,6 +40,8 @@ This project employs advanced data science techniques, including spatial analysi
 - Optimization: Applying optimization algorithms to select the best locations.
 - Visualization: Creating interactive mapped scatter plot representing results of optimization model.
 
+---
+
 # 🌟 Requirements
 
 - Python 3.8 or higher
@@ -59,6 +63,8 @@ scipy==1.7.1
 numpy==1.21.2
 ```
 
+---
+
 # ⚙️ Installation
 
 **1. Clone the repository and install the necessary dependencies.**
@@ -76,6 +82,8 @@ cd python-supercharger-location-optimization
 pip install -r requirements.txt
 ```
 
+---
+
 # Usage
 
 To start the optimization process, run the main script. Here’s how:
@@ -88,6 +96,8 @@ python main.py
 
 This will begin the optimization process for supercharger locations based on the provided data.
 3. The results, including visualizations and data analysis, will be generated and saved in the appropriate directories.
+
+---
 
 # Project Structure
 
@@ -102,12 +112,16 @@ This will begin the optimization process for supercharger locations based on the
     ├── requirements.txt         # List of dependencies
 ```
 
+---
+
 # Results
 ![Supercharger Location Optimization](https://github.com/Jchow2/python-supercharger-location-optimization/blob/main/Tesla%20Supercharger%20Location%20Optimization%20-%20California.png)
 
 - The interactive map reveals clusters of supercharger stations in major metropolitan areas such as Los Angeles, San Francisco, and San Diego.
 - The color-coded lines indicate that most supercharger stations are within a short to medium distance from their nearest neighbor, ensuring good coverage for electric vehicle drivers.
 - The longest distances (red lines) highlight areas where additional supercharger stations could be beneficial to reduce travel distances for EV drivers.
+
+---
 
 # Contributing
 We welcome contributions to this project! Please follow the guidelines below to contribute:
@@ -118,9 +132,13 @@ We welcome contributions to this project! Please follow the guidelines below to 
 4. Push to the branch (git push origin feature-xyz)
 5. Open a pull request
 
+---
+
 ## 📜 License
 
 This project is licensed under the Apache License Version 2.0.
+
+---
 
 # 👩‍💻 Acknowledgements
 Developed and maintained by Justin Chow.
