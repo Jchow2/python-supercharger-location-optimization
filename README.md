@@ -116,7 +116,7 @@ This will run the optimization model processing the supercharger locations in Ca
 ---
 
 # Results
-![Supercharger Location Optimization](https://github.com/Jchow2/python-supercharger-location-optimization/blob/main/Tesla%20Supercharger%20Location%20Optimization%20-%20California.png)
+![supercharger-location-map](supercharger-location-map.png)
 
 - The interactive map reveals clusters of supercharger stations in major metropolitan areas such as Los Angeles, San Francisco, and San Diego.
 - The color-coded lines indicate that most supercharger stations are within a short to medium distance from their nearest neighbor, ensuring good coverage for electric vehicle drivers.
