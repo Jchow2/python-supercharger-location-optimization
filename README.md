@@ -28,8 +28,8 @@ With the rise in electric vehicle (EV) adoption, the need for an efficient charg
 The objective function used in this project aims to minimize the total distance traveled by all EV users to the nearest supercharger station. The function is formulated as follows: $$\text{Minimize} \sum_{i=1}^{n} \sum_{j=1}^{m} d_{ij} x_{ij}$$
 
 Where: 
-- _\( d_{ij} \) is the distance between EV user _\( i \)_ and supercharger station _\( j \)_
-- _\( x_{ij} \) is a binary variable indicating whether EV user _\( i \)_ is assigned to supercharger station _\( j \)_
+- $$\( d_{ij} \)$$ is the distance between EV user _\( i \)_ and supercharger station _\( j \)_
+- $$\( x_{ij} \)$$ is a binary variable indicating whether EV user _\( i \)_ is assigned to supercharger station _\( j \)_
 
 ## Methodology 
 
@@ -89,13 +89,13 @@ pip install -r requirements.txt
 To start the optimization process, run the main script. Here’s how:
 
 1. Ensure all dependencies are installed as per the requirements.txt file.
-2. Execute the main script:
+2. Run the jupyter notebook:
 ```bash
-python main.py
+jupyter notebook notebooks/tesla-supercharger-optimization-model.ipynb
 ```
 
-This will begin the optimization process for supercharger locations based on the provided data.
-3. The results, including visualizations and data analysis, will be generated and saved in the appropriate directories.
+This will run the optimization model processing the supercharger locations in California, USA based on the provided data.
+3. The results, including a mapped scatter plot, will be generated and saved in the appropriate directories.
 
 ---
 
@@ -103,13 +103,14 @@ This will begin the optimization process for supercharger locations based on the
 
 ```bash
 /project-root
-    ├── data                     # Directory containing data files
-    ├── notebooks                # Jupyter notebooks for exploration and analysis
-    ├── src                      # Source code for the project, contained in a single Python Markdown file
-        ├── main_code.md         # Main Python Markdown file containing all the code
-    ├── tests                    # Directory for test scripts
-    ├── README.md                # This README file
-    ├── requirements.txt         # List of dependencies
+    ├── data                               # Directory containing data files
+    ├── notebooks                          # Jupyter notebooks for exploration and analysis
+        ├── tesla-supercharger-optimization-model.ipynb   # Main Jupyter Notebook
+    ├── src                                # Source code for the project
+        ├── __init__.py                    # Indicates that this directory is a Python package
+    ├── README.md                          # This README file
+    ├── requirements.txt                   # List of dependencies
+
 ```
 
 ---
