@@ -1,6 +1,6 @@
 ![tesla-icon](tesla-icon.jpg)
 
-# ⚡ Tesla Supercharger Location Optimization
+# ⚡Supercharger Location Optimization Model
 
 The Supercharger Location Optimization project aims to optimize the placement of supercharger stations for electric vehicles. This project uses advanced data science techniques to determine the most efficient locations for these stations to maximize coverage and minimize costs. The project is based on the paper "Tesla’s Supercharger Cost Revealed to Be Just One-Fifth of the Competition in Losing Home State Bid" by Fred Lambert.
 
